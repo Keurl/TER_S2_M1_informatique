@@ -1,15 +1,16 @@
 
-ProblËmes rencontrÈs :
+Probl√®mes rencontr√©s :
 
-Lors de la configuration de la connexion sans fil entre notre pc et l'ev3, nous nous sommes heurtÈs ‡ plusieurs problËmes :
+Lors de la configuration de la connexion sans fil entre notre pc et l'ev3, nous nous sommes heurt√©s √† plusieurs probl√®mes :
 
 I - Choix du type de connexion
 
-L'EV3 permet une connexion wifi ou bluetooth. Cependant, pour la connexion wifi, l'EV3 a besoin d'une clÈ wifi USB
-spÈcifique, et nous n'en avions pas ‡ notre disposition au dÈbut des tests. Nous nous sommes donc tournÈs vers le bluetooth.
+L'EV3 permet une connexion wifi ou bluetooth. Cependant, pour la connexion wifi, l'EV3 a besoin d'une cl√© wifi USB
+sp√©cifique, et nous n'en avions pas √† notre disposition au d√©but des tests. Nous nous sommes donc tourn√©s vers le bluetooth.
 
-II - ProblËme bluetooth
+II - Probl√®me bluetooth
 
-Nos dÈbuts avec la connexion Bluetooth ont ÈtÈ compliquÈs : notre ordinateur n'arrivait pas ‡ se connecter ‡ l'EV3, bien
-qu'ils Ètaient indiquÈs comme appairÈs. Nous avons alors essayÈ d'installer le plugin Eclipse leJOS NXJ, pensant que c'Ètait
-le problËme puisque celui-ci permet selon sa description de communiquer avec l'EV3 via bluetooth ou USB.
+Nos d√©buts avec la connexion Bluetooth ont √©t√© compliqu√©s : notre ordinateur n'arrivait pas √† se connecter √† l'EV3, bien
+qu'ils √©taient indiqu√©s comme appair√©s. Nous avons alors essay√© d'installer le plugin Eclipse leJOS NXJ, pensant que c'√©tait
+le probl√®me puisque celui-ci permet selon sa description de communiquer avec l'EV3 via bluetooth ou USB.
+--> l'appairage avait √©t√© effectu√© √† l'envers, l'EV3 √©tait mis en client il √©tait donc impossible de s'y connecter ou de le connecter au pc, aucune communication n'√©tait possible. La solution a √©t√© de le configur√© comme serveur, ainsi le pc a pu s'y connecter et il a √©t√© possible de communiquer avec l'appareil.
